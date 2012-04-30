@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstTextViewText" />
+
+    <Button
+        android:id="@+id/btnGetXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonText" />
+    <ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="20dp" >
+    <TextView        
+        android:id="@+id/lblXmlResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/resultTextViewText" />    
+    </ScrollView>
+
+</LinearLayout>

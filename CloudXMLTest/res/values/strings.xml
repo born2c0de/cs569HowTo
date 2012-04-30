@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CloudXMLTest</string>
+    <string name="firstTextViewText">Click the button to download the XML file.</string>
+    <string name="buttonText">Get XML From Cloud.</string>
+    <string name="resultTextViewText">Parsed XML appears here.</string>
+</resources>
